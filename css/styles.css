@@ -77,6 +77,9 @@ body {
 
   color: var(--main-text-color);
 }
+
+/* ------------------------------hero--------------------- */
+
 .hero {
   width: 1600px;
   height: 600px;
@@ -150,6 +153,8 @@ body {
 
   color: var(--second-title-color);
 }
+/* ------------------about------------------------- */
+
 .about-pre-title {
   font-weight: bold;
   font-size: 36px;
@@ -180,6 +185,9 @@ body {
 
   color: var(--main-text-color);
 }
+
+/* ------------------------------footer----------------- */
+
 .footer {
   width: 1600px;
   height: 252px;
@@ -238,12 +246,39 @@ body {
 
   color: var(--main-text-color);
 }
-.footer-link-tel {
+.footer-tel {
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: var(--main-text-color);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* -------------------portfolio---------------------- */
+
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.hero-btn {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.hero-btn-p:hover,
+.hero-btn:focus {
+  color: var(--second-text-color);
 }
