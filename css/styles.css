@@ -4,9 +4,85 @@
   --main-text-color: #757575;
   --second-text-color: #2196f3;
   --third-text-color: #rgba(255, 255, 255, 0.6);
-  --fourh-text-color: --accent-color;
+  --fourh-text-color: #757575;
+  --accent-color: #292929;
+  --main--btr-color: #ffffff;
+  --hader-text-color: #2196f3;
 }
 
 body {
   font-family: "roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.header-color-wbo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.19;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
+}
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--second-title-color);
+}
+.header-color {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--second-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--second-text-color);
+}
+.header-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+
+.hero {
+  width: 1200px;
+  height: 300px;
+  top: 0.37;
+
+  background: #2f303a;
+}
+.hero-title {
+  font-weight: 800px;
+  font-size: 1.36;
+  line-height: 44px;
+  letter-spacing: 0.09em;
+
+  color: #ffffff;
+}
+.hero-btn {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
