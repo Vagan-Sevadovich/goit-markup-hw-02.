@@ -20,6 +20,10 @@ body {
 .link {
   text-decoration: none;
 }
+.header-link:hover,
+.header-link:focus {
+  color: var(--second-text-color);
+}
 
 .header-color-wbo {
   font-family: Raleway;
@@ -32,6 +36,18 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--second-text-color);
+}
+.header-color-wbo1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.19;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
 }
 .header-link {
   font-style: normal;
@@ -49,11 +65,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: var(--second-text-color);
-}
-.header-link:hover,
-.header-link:focus {
-  color: var(--second-text-color);
+  color: var(--second-title-color);
 }
 .header-tel {
   font-family: Roboto;
