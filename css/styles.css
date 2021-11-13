@@ -1,13 +1,12 @@
 :root {
-  --main-title-color: #ffffff;
+  --hero-title-color: #ffffff;
   --second-title-color: #212121;
-  --main-text-color: #757575;
-  --second-text-color: #2196f3;
-  --third-text-color: #rgba(255, 255, 255, 0.6);
-  --fourh-text-color: #757575;
-  --accent-color: #292929;
-  --main--btr-color: #ffffff;
-  --hader-text-color: #2196f3;
+  --hero-text-color: #212121;
+  --second-text-color: #757575;
+  --third-title-color: #2196f3;
+  --hader-navigation-item-color: #212121;
+  --hader-contact-link-color: #757575;
+  --accent-color: #2f303a;
 }
 
 body {
@@ -20,58 +19,58 @@ body {
 .link {
   text-decoration: none;
 }
-.header-link:hover,
-.header-link:focus {
-  color: var(--second-text-color);
-}
 
 .header-color-wbo {
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.19;
+  font-size: 26px;
   line-height: 31px;
 
   letter-spacing: 0.03em;
 
-  color: var(--second-text-color);
+  color: #2196f3;
 }
 .header-color-wbo1 {
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.19;
+  font-size: 26px;
   line-height: 31px;
 
   letter-spacing: 0.03em;
 
   color: var(--second-title-color);
 }
-.header-link {
-  font-weight: 500;
-  font-size: 1, 14;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: var(--second-title-color);
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #2196f3;
 }
-.header-color {
+
+.navigation-link {
   font-style: normal;
   font-weight: 500;
-  font-size: 1, 14;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: var(--second-title-color);
+  color: var(--hader-navigation-item-color);
+}
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
 }
 .header-tel {
   font-style: normal;
   font-weight: 500;
-  font-size: 1, 14;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: var(--main-text-color);
+  color: #757575;
 }
 
 /* ------------------------------hero--------------------- */
@@ -82,36 +81,46 @@ body {
   left: 0px;
   top: 80px;
 
-  background: var(--accent-color);
+  background: #2f303a;
 }
 .hero-title {
-  font-weight: 800px;
-  font-size: 1.36;
-  line-height: 44px;
-  letter-spacing: 0.09em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
 
-  color: var(--main--btr-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
-.hero-btnn {
+.hero-btn {
+  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
 
-  background: var(--second-text-color);
+  background: #2196f3;
 }
 
-.hero-btnn {
-  font-size: 1, 87;
+.hero-btn {
+  font-weight: bold;
+  font-size: 16px;
   line-height: 30px;
+  /* identical to box height, or 187% */
 
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
 
-  color: var(--main--btr-color);
+  color: #ffffff;
 }
 .hero-list-title {
   font-weight: bold;
-  font-size: 1, 14;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -119,7 +128,7 @@ body {
   color: var(--second-title-color);
 }
 .hero-list {
-  font-size: 1, 71;
+  font-size: 14px;
   line-height: 24px;
   /* or 171% */
 
@@ -129,7 +138,7 @@ body {
 }
 .hero-list-title {
   font-weight: bold;
-  font-size: 1, 16;
+  font-size: 16px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -138,7 +147,7 @@ body {
 }
 .hero-after {
   font-weight: bold;
-  font-size: 1, 16;
+  font-size: 16px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -149,7 +158,7 @@ body {
 
 .about-pre-title {
   font-weight: bold;
-  font-size: 1, 16;
+  font-size: 16px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -158,7 +167,7 @@ body {
 }
 .about-title {
   font-weight: 500;
-  font-size: 1, 18;
+  font-size: 18px;
   line-height: 19px;
   /* identical to box height */
 
@@ -168,7 +177,7 @@ body {
   color: var(--second-title-color);
 }
 .about-after-title {
-  font-size: 1, 18;
+  font-size: 18px;
   line-height: 19px;
   /* identical to box height */
 
@@ -188,58 +197,42 @@ body {
 
   background: var(--accent-color);
 }
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--second-text-color);
-}
 
-.footer-iten {
-  font-family: Raleway;
+.footer-color-wbo {
   font-style: normal;
   font-weight: bold;
-  font-size: 1, 19;
+  font-size: 19px;
   line-height: 31px;
-  /* identical to box height */
 
   letter-spacing: 0.03em;
 
-  color: var(--hader-text-color);
+  color: #2196f3;
 }
-.footer-color-wbo2 {
-  font-family: Raleway;
+.footer-color-wbo1 {
   font-style: normal;
   font-weight: bold;
-  font-size: 1, 19;
+  font-size: 19px;
   line-height: 31px;
-  /* identical to box height */
 
   letter-spacing: 0.03em;
 
-  color: var(--main--btr-color);
+  color: var(--hero-title-color);
 }
-.footer-adres {
-  font-size: 1, 71;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: var(--main--btr-color);
-}
-.footer-link {
-  font-family: Roboto;
+.footer-item-adres {
   font-style: normal;
   font-weight: normal;
-  font-size: 1, 71;
+  font-size: 14px;
   line-height: 24px;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: var(--main-text-color);
+  color: #ffffff;
 }
-.footer-tel {
-  font-size: 1, 71;
+.footer-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
   line-height: 24px;
   /* or 171% */
 
@@ -247,30 +240,14 @@ body {
 
   color: rgba(255, 255, 255, 0.6);
 }
-
-/* -------------------portfolio---------------------- */
-
-.hero-btn {
-  font-weight: 500;
-  font-size: 1, 62;
-  line-height: 26px;
+.footer-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: #212121;
-}
-.hero-btn {
-  position: absolute;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-
-.hero-btn-p:hover,
-.hero-btn-p:focus {
-  color: var(--second-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
