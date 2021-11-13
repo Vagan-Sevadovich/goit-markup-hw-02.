@@ -28,7 +28,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--third-title-color);
 }
 .header-color-wbo1 {
   font-style: normal;
@@ -42,7 +42,7 @@ body {
 }
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #2196f3;
+  color: var(--third-title-color);
 }
 
 .navigation-link {
@@ -61,7 +61,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: var(--third-title-color);
 }
 .header-tel {
   font-style: normal;
@@ -70,7 +70,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--hader-contact-link-color);
 }
 
 /* ------------------------------hero--------------------- */
@@ -93,7 +93,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--hero-title-color);
 }
 .hero-btn {
   position: absolute;
@@ -102,7 +102,7 @@ body {
   left: 700px;
   top: 430px;
 
-  background: #2196f3;
+  background: var(--third-title-color);
 }
 
 .hero-btn {
@@ -116,7 +116,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--hero-title-color);
 }
 .hero-list-title {
   font-weight: bold;
@@ -206,7 +206,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--third-title-color);
 }
 .footer-color-wbo1 {
   font-style: normal;
@@ -227,7 +227,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--hero-title-color);
 }
 .footer-link {
   font-style: normal;
@@ -259,7 +259,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--hader-contact-link-color);
 }
 .header-link-a {
   font-style: normal;
@@ -268,7 +268,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--hader-contact-link-color);
 }
 
 .filter-btn {
@@ -278,9 +278,30 @@ body {
 
   letter-spacing: 0.03em;
   background: #f5f4fa;
-  color: #212121;
+  color: var(--hader-navigation-item-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  color: #2196f3;
+  color: var(--third-title-color);
+}
+
+.hero-after-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: var(--hero-text-color);
+}
+.hero-after-text {
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
 }
