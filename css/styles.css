@@ -31,7 +31,6 @@ body {
   color: var(--third-title-color);
 }
 .header-color-wbo1 {
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -64,7 +63,6 @@ body {
   color: var(--third-title-color);
 }
 .header-tel {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -209,7 +207,6 @@ body {
   color: var(--third-title-color);
 }
 .footer-color-wbo1 {
-  font-style: normal;
   font-weight: bold;
   font-size: 19px;
   line-height: 31px;
@@ -219,7 +216,6 @@ body {
   color: var(--hero-title-color);
 }
 .footer-item-adres {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -230,7 +226,6 @@ body {
   color: var(--hero-title-color);
 }
 .footer-link {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -241,7 +236,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -262,7 +256,6 @@ body {
   color: var(--hader-contact-link-color);
 }
 .header-link-a {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
