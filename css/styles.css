@@ -20,25 +20,17 @@ body {
   text-decoration: none;
 }
 
-.header-color-wbo {
-  font-style: normal;
+.header-logo {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-
   letter-spacing: 0.03em;
-
+  color: #212121;
+}
+.logo-web {
   color: var(--third-title-color);
 }
-.header-color-wbo1 {
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
 
-  letter-spacing: 0.03em;
-
-  color: var(--second-title-color);
-}
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--third-title-color);
@@ -94,20 +86,13 @@ body {
   color: var(--hero-title-color);
 }
 .hero-btn {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
   background: var(--third-title-color);
 }
 
 .hero-btn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 187% */
 
   display: flex;
   align-items: center;
@@ -128,61 +113,50 @@ body {
 .hero-list {
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
 }
-.hero-list-title {
+
+.hero-after-title {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--second-title-color);
-}
-.hero-after {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--second-title-color);
+  color: var(--hero-text-color);
 }
 /* ------------------about------------------------- */
 
 .about-pre-title {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--second-title-color);
+  color: var(--hader-navigation-item-color);
 }
 .about-title {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--second-title-color);
+  color: var(--hero-text-color);
 }
-.about-after-title {
-  font-size: 18px;
+.about-after-text {
+  font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--main-text-color);
+  color: var(--hader-contact-link-color);
 }
 
 /* ------------------------------footer----------------- */
@@ -195,26 +169,17 @@ body {
 
   background: var(--accent-color);
 }
-
-.footer-color-wbo {
+.footer-logo {
+  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 26px;
   line-height: 31px;
-
-  letter-spacing: 0.03em;
-
-  color: var(--third-title-color);
-}
-.footer-color-wbo1 {
-  font-weight: bold;
-  font-size: 19px;
-  line-height: 31px;
-
   letter-spacing: 0.03em;
 
   color: var(--hero-title-color);
 }
+
 .footer-item-adres {
   font-weight: normal;
   font-size: 14px;
@@ -238,7 +203,7 @@ body {
 .footer-tel {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71px;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -277,7 +242,6 @@ body {
 .filter-btn:focus {
   color: var(--third-title-color);
 }
-
 .hero-after-title {
   font-style: normal;
   font-weight: bold;
