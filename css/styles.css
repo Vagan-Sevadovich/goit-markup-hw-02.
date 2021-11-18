@@ -21,11 +21,12 @@ body {
 }
 
 .header-logo {
-  font-weight: bold;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .logo-web {
   color: var(--third-title-color);
@@ -66,7 +67,6 @@ body {
 /* ------------------------------hero--------------------- */
 
 .hero {
-  
   background: #2f303a;
 }
 .hero-title {
@@ -105,34 +105,38 @@ body {
 
   color: var(--second-title-color);
 }
-.hero-list {
+.hero-list-text {
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 
   letter-spacing: 0.03em;
 
-  color: var(--main-text-color);
+  color: var(--second-text-color);
 }
 
 .hero-after-title {
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
+}
+/* ------------------about------------------------- */
+
+.about-pre-title {
+  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--hero-text-color);
-}
-/* ------------------about------------------------- */
-
-.about-pre-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--hader-navigation-item-color);
+  color: var(--second-title-color);
 }
 .about-title {
   font-weight: 500;
@@ -182,6 +186,7 @@ body {
   color: var(--hero-title-color);
 }
 .footer-link {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -211,6 +216,7 @@ body {
   color: var(--hader-contact-link-color);
 }
 .header-link-a {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
